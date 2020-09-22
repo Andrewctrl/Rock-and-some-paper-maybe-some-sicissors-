@@ -1,0 +1,30 @@
+player1 = input("Rock, Paper, Scissor? Start with Caps plz ")
+player2 = input("Rock, Paper, Scissor? Start with Caps plz ")
+if player1 == "Rock" :
+  if player2 == "Rock":
+   print("Tie") 
+if player1 == "Rock" :
+    if player2 == "Paper":
+     print("Player2 Wins")
+if player1 == "Rock" :
+    if player2 == "Scissor":
+     print("Player1 Wins")
+if player1 == "Paper" :
+    if player2 == "Rock":
+     print("Player1 Wins")
+if player1 == "Paper" :
+    if player2 == "Paper":
+     print("Tie")
+if player1 == "Paper" :
+    if player2 == "Sciossor":
+     print("Player2 Wins")
+if player1 == "Scissor" :
+    if player2 == "Rock":
+     print("Player2 Wins")
+if player1 == "Scissor" :
+    if player2 == "Paper":
+     print("Player1 Wins")
+if player1 == "Scissor" :
+    if player2 == "Scissor":
+     print("Player2 Wins")
+     
